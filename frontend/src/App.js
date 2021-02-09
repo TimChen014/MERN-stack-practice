@@ -47,12 +47,7 @@ export default function App() {
       flexDirection: "column",
       alignItems: "flex-right",
       position: "absolute",
-    },
-    buttonSpacing: {
-      mx: "auto",
-      px: "auto",
-      display: "flex",
-    },
+    }
   });
 
   const classes = useStyles();
