@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(#0096a5, rgb(241, 241, 241));
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  color: white;
+  margin: 5%;
+  font-size: x-large;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  width: 100%;
+}
+
+.patientList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* width: 100%; */
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.patientName {
+  justify-content: space-around;
+  overflow: visible;
+  background-color: #e7e7e7d8;
+  border-radius: 5px;
+  margin: 2%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
