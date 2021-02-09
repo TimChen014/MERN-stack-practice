@@ -5,7 +5,7 @@ This is a small project to view patient order, edit and store these changes in a
 
 After initializing the MongoDB database and the server, please run "node init.js" for posting patient and order data to the database.
 
-```
+```console
 . > mongod
 ./backend > nodemon server.js
 ./frontend/src > node init.js
