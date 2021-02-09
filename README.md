@@ -13,6 +13,8 @@ After initializing the MongoDB database and the server, please run "node init.js
 
 Then you can type in npm start in the project directory to start up the project:
 
-`./frontend/src > npm start`
+```console
+./frontend/src > npm start
+```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
